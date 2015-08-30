@@ -14,8 +14,9 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'itchyny/lightline.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'maksimr/vim-jsbeautify'
-Plugin 'einars/js-beautify'
+" Plugin 'einars/js-beautify'
 Plugin 'wookiehangover/jshint.vim'
+Plugin 'jelera/vim-javascript-syntax'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -34,8 +35,9 @@ filetype plugin indent on    " required
 
 " Colors and theme, font
 set t_Co=256
+colorscheme hybrid
 " colorscheme seti
-colorscheme badwolf
+" colorscheme badwolf
 " colorscheme gruvbox
 set guifont=Monaco:h11:cANSI
 set statusline=2
